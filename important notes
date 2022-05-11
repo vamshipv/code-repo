@@ -1,0 +1,5 @@
+smarties = ["Jane", "Bob", "Peter"]
+cleveries = ["Oscar", "Lidia", "Ann"]
+lst = [[i,j] for i,j in zip(smarties,cleveries)]
+#same as this
+list(map(lambda i: i*ch, data))

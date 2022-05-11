@@ -1,0 +1,5 @@
+import pandas as pd    
+
+list1 = [1,2,3,4,5]
+df = pd.DataFrame(list1)
+df.to_csv('filename.csv', index=False)
